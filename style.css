@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#galerija {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 100px;
+	grid-gap: 20px;
+}
+
+#slika {
+	height: 200px;
+	width: 300px;
+}
